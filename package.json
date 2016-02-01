@@ -1,0 +1,52 @@
+{
+  "name": "lintpackage",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gaston test -r node"
+  },
+  "author": "Shawn Inder <shawninder@gmail.com>",
+  "license": "MIT",
+  "keywords": [],
+  "contributors": [
+    "Shawn Inder <shawninder@gmail.com>"
+  ],
+  "homepage": "https://github.com/shawninder/lintpackages",
+  "bugs": {
+    "url": "https://github.com/shawninder/lintpackage/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawninder/lintpackage.git"
+  },
+  "engines": {
+    "node": "^4.2.2"
+  },
+  "dependencies": {
+    "npmlog": "^2.0.2",
+    "prompt": "^0.2.14",
+    "vigour-config": "0.0.7",
+    "vigour-fs-promised": "^2.0.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "expect",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "sinon"
+    ]
+  },
+  "vigour": {
+    "pkgPath": {
+      "val": false
+    }
+  },
+  "gaston": {
+    "package": true
+  }
+}
