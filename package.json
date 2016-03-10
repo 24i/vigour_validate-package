@@ -1,5 +1,5 @@
 {
-  "name": "lintpackage",
+  "name": "vigour-validate-package",
   "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
@@ -12,13 +12,13 @@
   "contributors": [
     "Shawn Inder <shawninder@gmail.com>"
   ],
-  "homepage": "https://github.com/shawninder/lintpackages",
+  "homepage": "https://github.com/vigour-io/validate-package",
   "bugs": {
-    "url": "https://github.com/shawninder/lintpackage/issues"
+    "url": "https://github.com/vigour-io/validate-package/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shawninder/lintpackage.git"
+    "url": "https://github.com/vigour-io/validate-package.git"
   },
   "engines": {
     "node": "^4.2.2"
