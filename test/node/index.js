@@ -15,7 +15,7 @@ var initial = {
     test: 'echo "Error: no test specified" && exit 1'
   },
   author: '',
-  license: 'ISC'
+  license: 'MIT'
 }
 
 // var expected = {
